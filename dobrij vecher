@@ -1,0 +1,37 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+int main()
+
+//{
+//	vector < int > sk{ 1,2,3,1,2 };
+//	if (sk[0] == 1)cout << "1.veta ir 1 ";
+//	if (sk[1] == 1)cout << "2.veta ir 1 ";
+//	if (sk[2] == 1)cout << "3.veta ir 1 ";
+//	if (sk[3] == 1)cout << "4.veta ir 1 ";
+//	if (sk[4] == 1)cout << "5.veta ir 1 ";
+//	
+//	if (sk[0] == 4)cout << "1.veta ir 4 ";
+//	if (sk[1] == 4)cout << "2.veta ir 4 ";
+//	if (sk[2] == 4)cout << "3.veta ir 4 ";
+//	if (sk[3] == 4)cout << "4.veta ir 4 ";
+//	if (sk[4] == 4)cout << "5.veta ir 4 ";
+//
+//	cout << sk[0] << sk[1] << sk[2] << sk[3] << sk[4];
+//
+//}
+
+{
+	vector <string> countries{ "USA","UK","CH","IND","CA","AU" };
+	vector <string> code{ "+1", "+144","+86","+91","+1","+61" };
+	string num, cod;
+	cout << "1.tel num,2.kods" << endl;
+	cin >> num >> cod;
+	if (code[0] == cod)cout << countries[0];
+	if (code[1] == cod)cout << countries[1];
+	if (code[2] == cod)cout << countries[2];
+	if (code[3] == cod)cout << countries[3];
+	if (code[4] == cod)cout << countries[4];
+	if (code[5] == cod)cout << countries[5];
+	cout << cod << num;
+}
